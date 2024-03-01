@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #3665c2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+}
+.heading {
+  color: #3665c2;
+  margin: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.d-flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bg {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+input,
+select {
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px -1px #96b7f8 inset;
+}
+button,
+.submit-btn {
+  font-size: 18px;
+  color: white;
+  background-color: #3665c2;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+button:hover,
+.submit-btn:hover {
+  background-color: #022469;
+}
+.submit {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  box-shadow: 0 5px 10px -1px #3665c2 inset;
+  z-index: 99;
+}
+select {
+  cursor: pointer;
+}
+input[type="radio"]{
+  padding: 0;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #022469;
+  transition: 0.2s all linear;
+  margin: 0 3px -4px 8px;
+}
+input:checked {
+  border: 6px solid #022469;
+}
+h2 {
+  color: white;
+  background-color: #3665c2;
+  margin: 20px 0;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+tr td:last-of-type {
+  text-align: start;
+  font-weight: bold;
+}
+td {
+  width: 200px;
+}
+td {
+  padding: 10px;
+  text-align: end;
+}
+span {
+  margin-left: 10px;
+}
